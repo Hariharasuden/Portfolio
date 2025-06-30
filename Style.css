@@ -1,0 +1,215 @@
+.navbar{
+
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.name{
+
+    width: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.links{
+
+    width: 700px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.content{
+
+    padding: 40px 40px 40px 40px;
+    background-color: white;
+}
+
+.hero {
+  background-color: #eaeaea;
+  padding: 30px 20px;
+  overflow: hidden; 
+}
+
+.hero .left {
+  width: 50%;
+  float: left;
+  text-align: left;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.hero .right {
+  width: 50%;
+  float: right;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.hero img {
+  width: 250px; /* or 200px if you want it even smaller */
+  height: auto;
+  border-radius: 10px;
+}
+
+
+
+.button{
+
+    width: 150px;
+    display: flex;
+}
+.navbar0{
+
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+.img{
+
+    width: 300px;
+    height: 400px;
+    margin-left: 800px;
+    size: 300px;
+
+}
+.chead{
+
+    text-align: center;
+    background-color: #eaeaea;
+    padding: 30px 20px;
+    overflow: hidden; 
+    
+
+}
+.card {
+  float: left;
+  width: 28%;
+  margin: 1%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.card-box {
+  width: 90%;
+  margin: auto;
+  overflow: auto;
+  height: 90%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.chead-para{
+
+
+
+    text-align: center;
+}
+
+.abt{
+
+
+  padding: 90px 90px;
+
+
+}
+
+.testimonials {
+      position: relative;
+      background: #fff;
+      padding: 40px 60px;
+      margin: 60px auto;
+      max-width: 700px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .testimonials .arrow {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 30px;
+      background: #eee;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      transition: 0.3s ease;
+      user-select: none;
+    }
+
+    .arrow.left {
+      left: 10px;
+    }
+
+    .arrow.right {
+      right: 10px;
+    }
+
+    .arrow:hover {
+      background: #ccc;
+      transform: translateY(-50%) scale(1.1);
+    }
+
+    .testimonials p {
+      font-style: italic;
+      margin-bottom: 15px;
+    }
+
+    .testimonials h4 {
+      font-weight: normal;
+      font-size: 1rem;
+    }
+
+
+    .thead{
+    background-color: #eaeaea;
+    text-align: center;
+    padding: 30px 20px;
+    overflow: hidden;
+
+}
+
+.contactme{
+    text-align: center;
+    font-size: 50px;
+}
+.contact_list{
+    height: auto;
+    display:flex;
+    justify-content:space-around;
+    margin-top: 20px;
+
+}
+.mail{
+    display:flex;
+    justify-content:space-between;
+    font-size: medium;
+}
+.number{
+    display:flex;
+    justify-content:space-between;
+    font-size: medium;
+}
+.copyright{
+    margin-top: 40px;
+   text-align:center ;
+   font-size: medium;
+}
